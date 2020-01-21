@@ -74,6 +74,10 @@ input, select, textarea {
 
 /* Basic */
 
+.veryHidden {
+	display: none;
+}
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -290,6 +294,8 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+
 
 	@media screen and (max-width: 736px) {
 
@@ -2551,6 +2557,8 @@ input, select, textarea {
 /* Icon */
 
 	.icon {
+		/* Not yet ready to add social account access */
+		display: none;
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
